@@ -45,6 +45,8 @@ ___
 
 # Applications of Node.js
 
+![Applications of Node.js](https://github.com/omar-gamel/nodejs-article/blob/main/nodejs-applications.png)
+
 Node.js is used for building different type of applications. Some of the application types are listed below −
 
 1. <b>Streaming applications:</b> Node.js can easily handle real-time data streams, where it is required to download resources on-demand without overloading the server or the user’s local machine. Node.js can also provide quick data synchronization between the server and the client, which improves user experience by minimizing delays using the Node.js event loop.
