@@ -27,12 +27,7 @@ Node.js eliminates the waiting, and simply continues with the next request.
 
 Node.js runs single-threaded, non-blocking, asynchronous programming, which is very memory efficient.
 ___
-
-1. <b>Real-time Applications:</b> Ideal for building real-time web applications like chat and live updates due to its event-driven nature.
-2. <b>Unified JavaScript Development:</b> Use JavaScript for both server-side and client-side scripting, streamlining development processes.
-3. <b>High Performance:</b> Leverages Google's V8 engine, allowing for fast code execution, particularly beneficial for I/O-heavy operations.
-4. <b>Scalability:</b> Designed with scalability in mind, making it suitable for applications that need to scale horizontally or vertically.
-
+ 
 <b>Features Of Node.js:</b>   
 
 1. <b>Easy:</b> Node.js is quite easy to start with. It’s a go-to choice for web development beginners. With a lot of tutorials and a large community—getting started is very easy.
