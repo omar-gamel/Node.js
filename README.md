@@ -1,3 +1,5 @@
+![Node.js](https://github.com/omar-gamel/Node.js/blob/main/nodejs.png)
+
 # What is Node.js?
 
 Node.js is <b>an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser.</b>
