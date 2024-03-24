@@ -1,4 +1,7 @@
-![Node.js](https://github.com/omar-gamel/Node.js/blob/main/nodejs.png)
+
+<p align="center">
+  <img src="https://github.com/omar-gamel/Node.js/blob/main/nodejs.png" alt="Node.js" width="300" height="200">
+</p>
 
 # What is Node.js?
 
