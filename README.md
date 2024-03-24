@@ -1,10 +1,10 @@
 # What is Node.js?
 
-Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser.
+Node.js is <b>an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser.</b>
 
-<b>Note:</b> 
-  - Node.js is not a programming language like Python, Java or C/C++. Node.js is a runtime, similar to Java virtual machine, that converts JavaScript code into machine code.
-  - Node.js uses asynchronous programming!
+- Node.js is not a programming language like Python, Java or C/C++. Node.js is a runtime, similar to Java virtual machine, that converts JavaScript code into machine code.
+- Node.js uses asynchronous programming!
+- Node.js runs single-threaded, non-blocking, asynchronous programming, which is very memory efficient.
 
 # Why Node.js?
 
@@ -22,10 +22,6 @@ Here is how Node.js handles a file request:
 1. Sends the task to the computer's file system.
 2. Ready to handle the next request.
 3. When the file system has opened and read the file, the server returns the content to the client.
-
-Node.js eliminates the waiting, and simply continues with the next request.
-
-Node.js runs single-threaded, non-blocking, asynchronous programming, which is very memory efficient.
 ___
  
 <b>Features Of Node.js:</b>   
@@ -34,7 +30,7 @@ ___
 2. <b>Scalable:</b> It provides vast scalability for applications. Node.js, being single-threaded, is capable of handling a huge number of simultaneous connections with high throughput.
 3. <b>Speed:</b> Non-blocking thread execution makes Node.js even faster and more efficient.
 4. <b>Packages:</b> A vast set of open-source Node.js packages is available that can simplify your work. There are more than one million packages in the NPM ecosystem today.
-5. <b>Strong:</b> backend—Node.js is written in C and C++, which makes it speedy and adds features like networking support.
+5. <b>Strong:</b> Node.js is written in C and C++, which makes it speedy and adds features like networking support.
 6. <b>Multi-platform:</b> Cross-platform support allows you to create SaaS websites, desktop apps, and even mobile apps, all using Node.js.
 7. <b>Maintainable:</b> Node.js is an easy choice for developers since both the frontend and backend can be managed with JavaScript as a single language.
 
