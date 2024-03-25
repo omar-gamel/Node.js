@@ -62,7 +62,7 @@ Node.js uses the <b>Single Threaded Event Loop</b> architecture to handle multip
 In a multi-threaded request-response model, multiple clients send a request, and the server processes each one before sending the response back. However, multiple threads are used to process concurrent calls. These threads are defined in a thread pool, and each time a request comes in, an individual thread is assigned to handle it.
 
 <p align="center">
-  <img src="https://github.com/omar-gamel/nodejs-article/blob/main/Nodejs-Architecture.png" alt="Node.js Architecture" width="500" height="300">
+  <img src="https://github.com/omar-gamel/nodejs-article/blob/main/nodejs-architectures.png" alt="Node.js Architecture" width="500" height="300">
 </p>
 
 Node.js works differently. Let’s take a look at each step it goes through:
