@@ -76,3 +76,12 @@ Node.js works differently. Let’s take a look at each step it goes through:
    
 Since <b>Node.js uses fewer threads, it utilizes fewer resources/memory, resulting in faster task execution</b>. So for our purposes, this single-threaded architecture is equivalent to multi-threaded architecture. When one needs to process data-intensive tasks, then using multi-threaded languages like Java makes much more sense. But for real-time applications, Node.js is the obvious choice.
 
+# What problems are created by Node.js being single threaded?
+
+Node is not completely single threaded. It uses thread pool for accessing resources, etc.
+
+However, your code will run in single thread only and so you can’t do anything complicated. If your code needs to process data for each request and it’s going to take just 10 milliseconds and there are 1000 concurrent connections, it will take 10 seconds to finish all of them. It’s pretty bad response time, isn’t it?
+
+For this reason, Node is more useful as intelligent proxy and not real application server.
+
+Other server solutions use different approach. They will spawn new thread or use thread pool for processing requests. On modern servers, it’s no problem to run hundreds of threads concurrently. The same situation as above with just a thread pool of 100 threads would mean that processing all of them take like 100 ms.
