@@ -7,19 +7,6 @@ Node.js is <b>an open-source, cross-platform JavaScript runtime environment that
 - Node.js runs single-threaded, non-blocking, asynchronous programming, which is very memory efficient.
 - common task for a web server can be to open a file on the server and return the content to the client.
  
-<h4>Here is how PHP or ASP handles a file request:</h4>
-
-1. Sends the task to the computer's file system.
-2. Waits while the file system opens and reads the file.
-3. Returns the content to the client.
-4. Ready to handle the next request.
- 
-Here is how Node.js handles a file request:
-
-1. Sends the task to the computer's file system.
-2. Ready to handle the next request.
-3. When the file system has opened and read the file, the server returns the content to the client.
- 
 <h3>Features Of Node.js:</h3>   
 
 1. <b>Easy:</b> Node.js is quite easy to start with. It’s a go-to choice for web development beginners. With a lot of tutorials and a large community—getting started is very easy.
