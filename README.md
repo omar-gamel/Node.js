@@ -17,7 +17,7 @@ Node.js is <b>an open-source, cross-platform JavaScript runtime environment that
 6. <b>Multi-platform:</b> Cross-platform support allows you to create SaaS websites, desktop apps, and even mobile apps, all using Node.js.
 7. <b>Maintainable:</b> Node.js is an easy choice for developers since both the frontend and backend can be managed with JavaScript as a single language.
 
-<h3>Disadvantages Of Node.js:</h3>
+<h3>Drawbacks Of Node.js:</h3>
 
 1. <b>CPU-bound Tasks:</b> Node.js is less suitable for CPU-intensive operations. Since the event loop is single-threaded, long-running calculations can block the event loop and delay processing of other requests.
 2. <b>Callback Hell:</b> The heavy reliance on callbacks can lead to a phenomenon known as "callback hell" or "pyramid of doom," where the code becomes nested and difficult to read and maintain. However, this can be mitigated with Promises and async/await.
