@@ -72,3 +72,31 @@ However, your code will run in single thread only and so you can’t do anything
 For this reason, Node is more useful as intelligent proxy and not real application server.
 
 Other server solutions use different approach. They will spawn new thread or use thread pool for processing requests. On modern servers, it’s no problem to run hundreds of threads concurrently. The same situation as above with just a thread pool of 100 threads would mean that processing all of them take like 100 ms.
+
+# Encryption vs hashing vs encoding
+
+Encryption, hashing, and encoding are all techniques used in computer science and security, but they serve different purposes and operate in different ways:
+
+1. <h3>Encryption:</h3>
+
+- Encryption is the process of converting data into a ciphertext, which is an unreadable format, using an algorithm and a key.
+- The purpose of encryption is to protect the confidentiality of data by making it unreadable to anyone who does not have the decryption key.
+- Encryption is reversible, meaning the ciphertext can be decrypted back into its original form using the decryption key.
+- Example encryption algorithms include AES (Advanced Encryption Standard) and RSA (Rivest-Shamir-Adleman).
+
+2. <h3>Hashing:</h3>
+
+- Hashing is the process of converting data of arbitrary size into a fixed-size hash value using a hashing algorithm.
+- The key difference from encryption is that hashing is a one-way function; the original data cannot be derived from the hash value.
+- Hash functions produce a unique hash value for a given input, but different inputs can produce the same hash value (known as a collision).
+- Hashing is commonly used for data integrity verification, password storage, and indexing.
+- Popular hashing algorithms include MD5, SHA-1, and SHA-256.
+
+3. <h3>Encoding:</h3>
+
+- Encoding is the process of converting data from one format to another, often for the purpose of transmission or storage.
+- Unlike encryption and hashing, encoding does not provide security; it's meant to represent data in a different format that is easily translatable.
+- Encoding schemes include ASCII, Unicode, Base64, and URL encoding.
+- Encoded data can be easily decoded back into its original form, as the process is reversible.
+
+In summary, encryption is used for securing data by converting it into an unreadable format, hashing is used for data integrity verification and irreversible transformation, and encoding is used for representing data in a different format for transmission or storage. Each serves distinct purposes in computer science and security.
